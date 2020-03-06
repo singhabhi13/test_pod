@@ -17,22 +17,20 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "AS" => "abc@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/TheCodedSelf/RWPickFlavor"
+s.homepage = "https://github.com/singhabhi13/test_pod"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/TheCodedSelf/RWPickFlavor.git", 
+s.source = { :git => "https://github.com/singhabhi13/test_pod.git", 
              :tag => "#{s.version}" }
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 4.7'
-s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "RWPickFlavor/**/*.{swift}"
+s.source_files = "test_FW_Swift/**/*.{swift}"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "test_FW_Swift/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
